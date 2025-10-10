@@ -12,7 +12,9 @@ public class ifCetakKRS18
         boolean uktLunas=input.nextBoolean();  
         //make the condition
         if(uktLunas)
-        {System.out.println("uKT Payment has been verified, You can print your KRS");}    
+        {System.out.println("uKT Payment has been verified, You can print your KRS");}   
+        else
+        {System.out.println("Registration rejected. Please pay UKT first");} 
     }
 }
 /*
@@ -20,6 +22,6 @@ public class ifCetakKRS18
     Answer: Because the condition is already in boolean form, so it doesn't need to use relational operators.
 2. When the program is run, then you enter the value false , what is the result?
     Answer: The result is "UKT Payment is not complete, you cannot print KRS"
-    3. The system needs to provide information that if the user enters a false value , the output will be "Registration rejected. Please pay UKT first." Modify the program by adding an
-    ELSE
+3. The system needs to provide information that if the user enters a false value , the output will be "Registration rejected. Please pay UKT first." Modify the program by adding an
+    ELSE!
 */
