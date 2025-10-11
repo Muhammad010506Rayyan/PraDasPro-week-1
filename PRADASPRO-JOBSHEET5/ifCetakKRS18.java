@@ -6,22 +6,22 @@ public class ifCetakKRS18
 {
     public static void main(String[]args)
     {//make the output
-        Scanner input = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         String message;
-        System.out.println("---Print KRS SIAKAD---");   
-        System.out.print("have your tuition have been paid in full?(true/false): "); 
-        boolean uktLunas=input.nextBoolean();  
-        //make the condition
-        if(uktLunas==true){
-            message = "You can print KRS";
-         } else if( uktLunas==false){
-            message = "Registration rejected. Please pay UKT first.";
-         } else{
-            message = "UKT Payment is not complete, you cannot print KRS";
-         }
-         System.out.println(message);
-    }
-}
+        System.out.println("Input the number");
+        int number = sc.nextInt();
+        if (number % 2 == 0) {
+            message="The number is GENAP";
+        } 
+        else if (number % 2 != 0) {
+                message="The number is GANJIL";
+        }
+        else {
+                message="The number is not an integer";
+            }
+        System.out.println(message);
+           
+    }}
 /*
 1.Why doesn't the check in the IF structure involve conditions with relational operators?
     Answer: Because the condition is already in boolean form, so it doesn't need to use relational operators.
