@@ -36,3 +36,10 @@ public class ifElseCetakKRS18 {
     
 }
 }
+/* .
+1. What is the function of syntax break ?
+ Answer: to end the current switch statement and transfer control to the statement immediately following the  switch.
+2. What is the role of syntax default on SWITCH-CASE selection structure?
+answer:  to specify a block of code to be executed if none of the case values match the switch expression.
+ */
+
