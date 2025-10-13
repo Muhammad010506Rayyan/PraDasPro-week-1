@@ -6,8 +6,10 @@ public static void main(String[] args) {
    System.out.print ("Show your status below here:");
    String status=input.nextLine();
     // make the selection
-    if (status.equalsIgnoreCase("lecturer")){System.out.println("access granted");}
-    else if(status.equalsIgnoreCase("student")){System.out.println("access granted");}
+    if (status.equals("lecturer")){
+        System.out.println("access granted");}
+    else if(status.equals("student")){
+        System.out.println("access granted");}
     else {System.out.println("sorry, you re not allowed");}
 
 }
