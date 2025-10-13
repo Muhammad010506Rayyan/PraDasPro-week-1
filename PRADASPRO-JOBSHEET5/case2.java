@@ -10,7 +10,7 @@ public static void main(String[] args) {
         System.out.println("access granted");}
     else if(status.equals("student")){
         System.out.println("access granted");}
-    else {System.out.println("sorry, you re not allowed");}
+    else {System.out.println("sorry, you're not allowed");}
 
 }
 }
