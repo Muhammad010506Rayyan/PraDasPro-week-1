@@ -8,9 +8,10 @@ int leaveEntitlement= sc.nextInt();
 int numLeave;
 /*  Create variable confirmation with String datatype */
 String confirmation;
+sc.nextLine();
 /*  make the do while loop */
 do{
-    System.out.print("do you want to take a leave: ");
+    System.out.println("do you want to take a leave: ");
     confirmation= sc.nextLine();
     if(confirmation.equals("y")){
         System.out.print("how many day?: ");
