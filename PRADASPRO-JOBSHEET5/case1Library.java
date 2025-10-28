@@ -1,5 +1,5 @@
 import java.util.Scanner;//to input the boolean
-public class Case1 { // main method to make java
+public class case1Library { // main method to make java
 public static void main(String[] args) {
     Scanner input=new Scanner(System.in);
     //prepare the boolean
