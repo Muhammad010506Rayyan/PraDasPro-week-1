@@ -25,3 +25,6 @@ for(int i=0;i<bil.length;i++){
     }
     
 }
+/*  Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran
+dari program? Mengapa demikian?
+Answer: it will be an error because it was more than the length of the array */
