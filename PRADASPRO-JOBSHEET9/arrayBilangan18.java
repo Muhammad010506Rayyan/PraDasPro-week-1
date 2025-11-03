@@ -5,6 +5,7 @@ public class arrayBilangan18 {
     bil [1]=2;
     bil [2]=3;
     bil [3]=4;
+    System.out.print(bil[0]);
 
 
     }
