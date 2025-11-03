@@ -1,11 +1,16 @@
 public class arrayBilangan18 {
     public static void main(String[] args) {
     int [] bil=new int[4];
-    bil [0]=1;
-    bil [1]=2;
-    bil [2]=3;
-    bil [3]=4;
-    System.out.print(bil[0]);
+    //Isi masing-masing elemen array bil tadi dengan angka 5, 13, -7, 17.
+    bil [0]=5 ;
+    bil [1]=13;
+    bil [2]=-7;
+    bil [3]=17;
+    System.out.println(bil[0]);
+    System.out.println(bil[1]);
+    System.out.println(bil[2]);
+    System.out.println(bil[3]);
+
 
 
     }
