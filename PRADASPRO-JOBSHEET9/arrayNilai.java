@@ -6,7 +6,7 @@ public static void main(String[] args) {
     // make the for loop to input the value
 int [] nilai= new int[5];
 for(int i=0;i<nilai.length;i++){
-    System.out.println("input your value: ");
+    System.out.println("input  value: "+(i+1));
     nilai[i]=sc.nextInt();
     sum += nilai[i];
     //make the output using loop for
