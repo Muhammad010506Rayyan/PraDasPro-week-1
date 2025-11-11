@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class cinema18 {
 public static void main(String[] args){
 String [][]audience=new String[4][2];
@@ -12,7 +14,7 @@ audience[3][1]="H";
 System.out.println("----------------------------");
 System.out.println(audience.length);
 for(int i=0;i<audience.length;i++){
-    System.out.println("row length "+(i+1)+" is : "+ audience[i].length);
+    System.out.println("row length "+(i+1)+" is : "+ String.join(",",audience[i]));
 
 }
 System.out.println("----------------------------");
