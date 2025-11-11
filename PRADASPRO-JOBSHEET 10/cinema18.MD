@@ -16,7 +16,7 @@
 
 5. Modify the program code in step 4 to display the length of each row in the array using
    a for loop. Compile, run, then commit.
-   ANSWER:
+   ANSWER:done
 
 6. Modify the program code in step 5 to display the length of each row in the array using
    a foreach loop. Compile, run, then commit.

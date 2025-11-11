@@ -8,7 +8,7 @@ audience[1][1]="D";
 audience[2][0]="E";
 audience[2][1]="F";
 audience[3][0]="G";
-audience[3][1]="H";
+
 
 
 System.out.printf(" %s\tand %s \n",audience[0][0],audience[0][1]);
