@@ -20,32 +20,32 @@
 
 6. Modify the program code in step 5 to display the length of each row in the array using
    a foreach loop. Compile, run, then commit.
-   ANSWER:
+   ANSWER:DONE
 
 7. In your opinion, what are the advantages and disadvantages of foreach loop compared
    to for loop?
    ANSWER:
 
 8. What is the max row index for the audience array?
-   ANSWER:
+   ANSWER: row index = 3, length is 4
 
 9. What is the max column index for the audience array?
-   ANSWER:
+   ANSWER: row index = 1, length is 2
 
 10. Add program code to display the audience’s name on the 3rd line using a for loop.
     Compile, run, then commit.
-    ANSWER:
+    ANSWER:done
 
 11. Modify the code in question number 10 to repeat using a foreach loop. Compile, run,
     then commit.
-    ANSWER:
+    ANSWER:done
 
 12. Modify the program code in question number 11 again to display the audience’s name
     for each line. Compile and run the program then observe the results, then commit.
-    ANSWER:
+    ANSWER:done
 
 13. What is the function of String.join()?
-    ANSWER:
+    ANSWER: its act to merge the line, A key feature is the ability to specify a "delimiter" or "separator" string (or character). This separator is inserted between each of the joined elements in the resulting string.
 
 14. Commit and push to GitHub
-    ANSWER:
+    ANSWER:done
