@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class cinemaWithScanner18 {
@@ -24,12 +25,7 @@ audience[r-1][c-1]=name;
  System.out.println("is there someone need to be added too?:");
     String answer=sc.nextLine();
 if(answer.equalsIgnoreCase("n")){
-   break;
-}
-
-}
-System.out.println(audience);
-
-    }
-    
+   break;}
+       }
+ }
 }
