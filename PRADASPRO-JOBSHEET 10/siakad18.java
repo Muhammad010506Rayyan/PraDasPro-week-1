@@ -32,4 +32,15 @@ for(int j=0;j<3;j++){
 
     }    
 }    
+/*
+1. What happens if the number of students and courses changes? Modify the
+SIAKAD program code to accommodate the dynamic number of students and courses.
+
+ANSWER:
+If the number of the student and course change, then the 
+output will adapt to the length each student had. if we adjust 
+the row it means we add or subsract the total of student, if we add 
+or substract colum, it means there are more or less course that student had
+*/
+
 
