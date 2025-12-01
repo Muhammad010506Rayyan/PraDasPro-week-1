@@ -1,6 +1,6 @@
 1. Apakah fungsi tanpa parameter selalu harus bertipe void?
    Dasar Pemrograman 2025
-   -ANSWER:without parameter, we always use void type. When we use void, it mean we will call the value inside the variable
+   -ANSWER:no, parameter acted to get the data out of the function, in void we also can use parameter to display the other function
 
 2. Apakah daftar menu pada program kafe dapat ditampilkan tanpa menggunakan fungsi
    Menu()? Modifikasi kode program tersebut untuk dapat menampilkan daftar menu
