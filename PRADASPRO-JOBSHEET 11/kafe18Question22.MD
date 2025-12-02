@@ -19,11 +19,15 @@ ANSWER: supaya dapat mendapatkan nilai data dari fungsi lain, ketika kita memasu
    Jika kodePromo adalah "DISKON50", tampilkan berikan diskon 50%. Jika kodePromo
    adalah "DISKON30", tampilkan berikan diskon 30%. Jika tidak ada kode promo yang
    berlaku, tampilkan kode invalid.
+   ANSWER: tadi saya error saat tidak memnambahkan variabel kodepromo pada main function pada function menu(), setelah saya tambahkan, program bisa jalan
+
 7. Berdasarkan fungsi Menu() di atas, jika nama pelanggan adalah "Budi", pelanggan
    tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris
    perintah pemanggilan fungsi menu yang benar.
+   ANSWER:
+
 8. Menurut Anda, apakah penggunaan parameter namaPelanggan dan isMember
    pada fungsi Menu() membuat program lebih mudah dibaca dan dikembangkan
    dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa parameter?
    Jelaskan alasan Anda.
-   2.3 Percobaan 3: Membuat Fungsi dengan
+   ANSWER: honestly after doing the experiment about function like three times, i was realizing something that actually function is more legible than using only one function which was the main method
